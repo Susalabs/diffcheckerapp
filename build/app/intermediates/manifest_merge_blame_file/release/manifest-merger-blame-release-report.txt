@@ -1,0 +1,379 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.diff.guardianeb"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+12        <intent>
+12-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+13            <action android:name="android.support.customtabs.action.CustomTabsService" />
+13-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+13-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+14        </intent>
+15        <intent>
+15-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:12:9-18:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:13:13-65
+16-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:13:21-62
+17
+18            <data
+18-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:15:13-17:38
+19                android:mimeType="*/*"
+19-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:16:17-39
+20                android:scheme="*" />
+20-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:17:17-35
+21        </intent>
+22        <intent>
+22-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:19:9-28:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:13:13-65
+23-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:13:21-62
+24
+25            <category android:name="android.intent.category.BROWSABLE" />
+25-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:22:13-74
+25-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:22:23-71
+26
+27            <data
+27-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:15:13-17:38
+28                android:host="pay"
+29                android:mimeType="*/*"
+29-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:16:17-39
+30                android:scheme="upi" />
+30-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:17:17-35
+31        </intent>
+32        <intent>
+32-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:29:9-31:18
+33            <action android:name="android.intent.action.MAIN" />
+33-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:17-68
+33-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:25-66
+34        </intent>
+35        <intent>
+35-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:32:9-36:18
+36            <action android:name="android.intent.action.SEND" />
+36-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:33:13-65
+36-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:33:21-62
+37
+38            <data android:mimeType="*/*" />
+38-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:15:13-17:38
+38-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:16:17-39
+39        </intent>
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+42-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:9:5-67
+42-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:9:22-64
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+43-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+44
+45    <uses-feature
+45-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+46        android:glEsVersion="0x00020000"
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+47        android:required="true" />
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+48
+49    <application
+50        android:name="android.app.Application"
+50-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:5:9-42
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.8.0] /Users/apple/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:6:9-43
+53        android:label="guardianeb" >
+53-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:4:9-35
+54        <activity
+54-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:7:9-27:20
+55            android:name="com.diff.guardianeb.MainActivity"
+55-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:8:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:12:13-163
+57            android:exported="true"
+57-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:9:13-36
+58            android:hardwareAccelerated="true"
+58-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:13:13-47
+59            android:launchMode="singleTop"
+59-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:10:13-43
+60            android:theme="@style/LaunchTheme"
+60-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:11:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:14:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:19:13-22:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:20:15-70
+71                android:resource="@style/NormalTheme" />
+71-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:21:15-52
+72
+73            <intent-filter>
+73-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:23:13-26:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:17-68
+74-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:25:17-76
+76-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:25:27-74
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+83-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:30:9-32:33
+84            android:name="flutterEmbedding"
+84-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:31:13-44
+85            android:value="2" />
+85-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:32:13-30
+86
+87        <activity
+87-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+88            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+88-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+89            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+89-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+90            android:exported="false"
+90-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+91            android:theme="@style/AppTheme" />
+91-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+92        <activity
+92-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+93            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+93-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+94            android:exported="false"
+94-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+95            android:theme="@style/ThemeTransparent" />
+95-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+96        <activity
+96-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+97            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+97-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+98            android:exported="false"
+98-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+99            android:theme="@style/ThemeTransparent" />
+99-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+100        <activity
+100-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+101            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+101-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+102            android:exported="false"
+102-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+103            android:launchMode="singleInstance"
+103-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+104            android:theme="@style/ThemeTransparent" />
+104-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+105        <activity
+105-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+106            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+106-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+107            android:exported="false"
+107-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+108            android:launchMode="singleInstance"
+108-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+109            android:theme="@style/ThemeTransparent" />
+109-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+110
+111        <receiver
+111-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+112            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+112-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+113            android:enabled="true"
+113-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+114            android:exported="false" />
+114-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+115
+116        <meta-data
+116-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+117            android:name="io.flutter.embedded_views_preview"
+117-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+118            android:value="true" />
+118-->[:flutter_inappwebview] /Users/apple/StudioProjects/guardianeb/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+119
+120        <provider
+120-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+121            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+121-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+122            android:authorities="com.diff.guardianeb.flutter.image_provider"
+122-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+123            android:exported="false"
+123-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+124            android:grantUriPermissions="true" >
+124-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+125            <meta-data
+125-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+127                android:resource="@xml/flutter_image_picker_file_paths" />
+127-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+128        </provider>
+129
+130        <activity
+130-->[:url_launcher_android] /Users/apple/StudioProjects/guardianeb/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+131            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+131-->[:url_launcher_android] /Users/apple/StudioProjects/guardianeb/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+132            android:exported="false"
+132-->[:url_launcher_android] /Users/apple/StudioProjects/guardianeb/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:url_launcher_android] /Users/apple/StudioProjects/guardianeb/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+134
+135        <provider
+135-->[:share] /Users/apple/StudioProjects/guardianeb/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+136            android:name="io.flutter.plugins.share.ShareFileProvider"
+136-->[:share] /Users/apple/StudioProjects/guardianeb/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-70
+137            android:authorities="com.diff.guardianeb.flutter.share_provider"
+137-->[:share] /Users/apple/StudioProjects/guardianeb/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+138            android:exported="false"
+138-->[:share] /Users/apple/StudioProjects/guardianeb/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+139            android:grantUriPermissions="true" >
+139-->[:share] /Users/apple/StudioProjects/guardianeb/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+140            <meta-data
+140-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+142                android:resource="@xml/flutter_share_file_paths" />
+142-->[:image_picker_android] /Users/apple/StudioProjects/guardianeb/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+143        </provider>
+144
+145        <receiver
+145-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:40:9-46:20
+146            android:name="com.razorpay.RzpTokenReceiver"
+146-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:41:13-57
+147            android:exported="false" >
+147-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:42:13-37
+148            <intent-filter>
+148-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:43:13-45:29
+149                <action android:name="rzp.device_token.share" />
+149-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:44:17-65
+149-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:44:25-62
+150            </intent-filter>
+151        </receiver>
+152
+153        <activity
+153-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:48:9-60:20
+154            android:name="com.razorpay.CheckoutActivity"
+154-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:49:13-57
+155            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+155-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:50:13-83
+156            android:exported="true"
+156-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:51:13-36
+157            android:theme="@style/CheckoutTheme" >
+157-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:52:13-49
+158            <intent-filter>
+158-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:53:13-59:29
+159                <action android:name="android.intent.action.MAIN" />
+159-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:17-68
+159-->/Users/apple/StudioProjects/guardianeb/android/app/src/main/AndroidManifest.xml:24:25-66
+160
+161                <data
+161-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:15:13-17:38
+162                    android:host="rzp.io"
+163                    android:scheme="io.rzp" />
+163-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:17:17-35
+164            </intent-filter>
+165        </activity>
+166
+167        <meta-data
+167-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:62:9-64:58
+168            android:name="com.razorpay.plugin.googlepay_all"
+168-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:63:13-61
+169            android:value="com.razorpay.RzpGpayMerged" />
+169-->[com.razorpay:checkout:1.6.26] /Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/AndroidManifest.xml:64:13-55
+170
+171        <uses-library
+171-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+172            android:name="androidx.window.extensions"
+172-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+173            android:required="false" />
+173-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+174        <uses-library
+174-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+175            android:name="androidx.window.sidecar"
+175-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+176            android:required="false" />
+176-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+177
+178        <activity
+178-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+179            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+179-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+180            android:excludeFromRecents="true"
+180-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+183        <!--
+184            Service handling Google Sign-In user revocation. For apps that do not integrate with
+185            Google Sign-In, this service will never be started.
+186        -->
+187        <service
+187-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+188            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+188-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+189            android:exported="true"
+189-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+190            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+190-->[com.google.android.gms:play-services-auth:17.0.0] /Users/apple/.gradle/caches/transforms-3/cd485411926a6fe063c6645ccd1141b6/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+191        <uses-library
+191-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+192            android:name="org.apache.http.legacy"
+192-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+193            android:required="false" />
+193-->[com.google.android.gms:play-services-maps:17.0.0] /Users/apple/.gradle/caches/transforms-3/e115828bd46a366924364d5397d53b25/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+194
+195        <activity
+195-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+196            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+196-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+199
+200        <meta-data
+200-->[com.google.android.gms:play-services-basement:17.6.0] /Users/apple/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+201            android:name="com.google.android.gms.version"
+201-->[com.google.android.gms:play-services-basement:17.6.0] /Users/apple/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+202            android:value="@integer/google_play_services_version" />
+202-->[com.google.android.gms:play-services-basement:17.6.0] /Users/apple/.gradle/caches/transforms-3/6b7f95937f60a49f8f6dbe5da5fed9cd/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+203
+204        <provider
+204-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+205            android:name="androidx.startup.InitializationProvider"
+205-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+206            android:authorities="com.diff.guardianeb.androidx-startup"
+206-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+207            android:exported="false" >
+207-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+208            <meta-data
+208-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+209                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+209-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+210                android:value="androidx.startup" />
+210-->[androidx.emoji2:emoji2:1.2.0] /Users/apple/.gradle/caches/transforms-3/9fc546b4b41c30406c1c6f8de93a0c6d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+211            <meta-data
+211-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/apple/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+212                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+212-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/apple/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+213                android:value="androidx.startup" />
+213-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/apple/.gradle/caches/transforms-3/c7dc2d946f639e7b414f5fbe78913a76/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+214        </provider>
+215    </application>
+216
+217</manifest>

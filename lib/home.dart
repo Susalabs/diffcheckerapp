@@ -9,6 +9,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:form_data/form_data.dart';
 import 'package:guardianeb/login.dart';
 import 'package:http/http.dart' as http;
+import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:pretty_diff_text/pretty_diff_text.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -48,6 +49,12 @@ class _DetailScreenState extends State<HomeScreen> {
   double correct=0;
   double incorrect=0;
   double extra =0;
+  double left=0;
+  double tword=0;
+  double ttype =0;
+  double acc=0;
+  double error =0;
+
 
   var other = "";
 
@@ -68,6 +75,7 @@ class _DetailScreenState extends State<HomeScreen> {
         if (_start == 0) {
           setState(() {
             timer.cancel();
+            Register();
           });
         } else {
           setState(() {
@@ -200,10 +208,14 @@ class _DetailScreenState extends State<HomeScreen> {
                         // This is called when the user selects an item.
                         setState(() {
                           dropdownValue = value;
-                          _isLoading = false;
-                          correct =0;
-                          incorrect= 0;
-                          extra =0;
+                           correct=0;
+                           incorrect=0;
+                           extra =0;
+                           left=0;
+                           tword=0;
+                           ttype =0;
+                           acc=0;
+                           error =0;
 
 
                         });
@@ -327,62 +339,8 @@ class _DetailScreenState extends State<HomeScreen> {
                     color: Colors.transparent,
                     child: InkWell(
                         onTap: () async {
-                          _timer.cancel();
+                          Register();
 
-                          String _name = nameController.text.trim();
-
-                          if (_name.isEmpty) {
-                            Fluttertoast.showToast(
-                              msg: "Fill Field",
-                              toastLength: Toast.LENGTH_SHORT,
-                            );
-                          } else {
-
-                            setState((){
-                              _isLoading = true;
-                            });
-
-                            DiffMatchPatch dmp = DiffMatchPatch();
-                            List<Diff> diffs =
-                                dmp.diff(other, _name);
-
-                            final textSpans =
-                                List<TextSpan>.empty(growable: true);
-
-                            diffs.forEach((diff) {
-                              if (diff.operation == DIFF_INSERT) {
-                                setState(() {
-                                  extra++;
-                                });
-                              }
-                              if (diff.operation == DIFF_DELETE) {
-                                setState(() {
-                                  incorrect++;
-                                });
-                              }
-
-                              if (diff.operation == DIFF_EQUAL) {
-                                setState(() {
-                                  correct++;
-                                });
-                              }
-                            });
-                          }
-
-    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    Map data = {
-    'email': 0,
-
-    };
-    var jsonResponse = null;
-    var url = Uri.parse("https://constant-system-370505.el.r.appspot.com/api/user/login");
-    var response = await http.post(url, body: data );
-    if(response.statusCode == 200) {
-    jsonResponse = json.decode(response.body);
-    print(jsonResponse);
-    if(jsonResponse != null) {
-
-    }}
                         },
                         child: Center(
                           child: Text(
@@ -547,33 +505,94 @@ class _DetailScreenState extends State<HomeScreen> {
     );
   }
 
-  Register(String email, pass, name, conpass, phone) async {
-    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    Map data = {'name': email, 'des': name, 'price': pass, 'date': phone};
-    var jsonResponse = null;
-    var url = Uri.parse(
-        "https://vakeemagro.el.r.appspot.com/api/products/addproduct");
-    var response = await http.post(url, body: data);
+  Register() async {
+    _timer.cancel();
 
-    if (response.statusCode == 200) {
-      jsonResponse = json.decode(response.body);
-      print(jsonResponse);
-      if (jsonResponse != null) {
-        setState(() {
-          _isLoading = false;
-        });
-      }
-    } else {
-      setState(() {
-        _isLoading = false;
-      });
+    String _name = nameController.text.trim();
 
-      errorMsg = response.body;
+    if (_name.isEmpty) {
       Fluttertoast.showToast(
-        msg: "${json.decode(response.body)['msg']}",
+        msg: "Fill Field",
         toastLength: Toast.LENGTH_SHORT,
       );
-      print("The error message is: ${response.body}");
+    } else {
+
+
+
+
+
+      setState((){
+        _isLoading = true;
+
+        tword=other.length/2;
+        ttype =_name.length/2;
+      });
+
+      DiffMatchPatch dmp = DiffMatchPatch();
+      List<Diff> diffs =
+      dmp.diff(other, _name);
+
+      final textSpans =
+      List<TextSpan>.empty(growable: true);
+
+      diffs.forEach((diff) {
+        if (diff.operation == DIFF_INSERT) {
+          setState(() {
+
+          });
+        }
+        if (diff.operation == DIFF_DELETE) {
+          setState(() {
+
+          });
+        }
+
+        if (diff.operation == DIFF_EQUAL) {
+          setState(() {
+            correct++;
+          });
+        }
+      });
     }
-  }
-}
+    setState(() {
+      left = tword -correct;
+      extra = ttype - correct;
+      error = extra +incorrect/tword;
+      acc = 100-acc;
+
+    });
+
+
+    var now = new DateTime.now();
+    var formatter = new DateFormat('yyyy-MM-dd hh:mm');
+    String formattedDate = formatter.format(now);
+
+    SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+    var id = sharedPreferences.getString('uid');
+    Map data = {
+      "date" : formattedDate,
+      "tname" : dropdownValue,
+      "left" : left,
+      "extra" : extra,
+      "correct" : correct,
+      "tword" : tword,
+      "ttype" : ttype,
+      "acc" : acc,
+      "error" : error,
+
+    };
+    var jsonResponse = null;
+    var url = Uri.parse("https://constant-system-370505.el.r.appspot.com/api/user/addhistory?id=" + id);
+    var response = await http.post(url, body: data );
+    if(response.statusCode == 200) {
+      jsonResponse = json.decode(response.body);
+      print(jsonResponse);
+      if(jsonResponse != null) {
+        Fluttertoast.showToast(
+          msg: "Test Submitted !",
+          toastLength: Toast.LENGTH_SHORT,
+        );
+
+      }}
+
+  }}

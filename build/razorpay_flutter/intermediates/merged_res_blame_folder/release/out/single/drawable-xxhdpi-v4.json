@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/rzp_logo.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/res/drawable-xxhdpi-v4/rzp_logo.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/ic_tick_mark.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/res/drawable-xxhdpi-v4/ic_tick_mark.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/ic_alert.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/res/drawable-xxhdpi-v4/ic_alert.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/rzp_name_logo.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/4dd2a10d6671f3b5cc74c27a4644766d/transformed/jetified-checkout-1.6.26/res/drawable-xxhdpi-v4/rzp_name_logo.png"
+    },
+    {
+        "merged": "/Users/apple/StudioProjects/guardianeb/build/razorpay_flutter/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/657d48052103e6d583361483daa1db44/transformed/jetified-play-services-base-17.5.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    }
+]
